@@ -14,7 +14,7 @@ let kittyId = 1;
 // blocking us from loading their assets if they don't like our zombie game ;)
 let apiUrl = "https://api.cryptokitties.co/kitties/" + kittyId
 $.get(apiUrl, function(data) {
-  let imgUrl = data.image_url;
+  let imgUrl = data.image_url
   // do something to display the image
 })
 
